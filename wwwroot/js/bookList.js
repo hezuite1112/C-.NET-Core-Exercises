@@ -14,9 +14,9 @@ function loadDataTable() {
         "columns": [
             { "data": "name", "width": "10%" },
             { "data": "author", "width": "10%" },
-            { "data": "Year_of_realesae", "width": "10%" },
-            { "data": "Sites", "width": "10%" },
-            { "data": "Quantity", "width": "10%" },
+            { "data": "year_of_realesae", "width": "10%" },
+            { "data": "sites", "width": "10%" },
+            { "data": "quantity", "width": "10%" },
             {
                 "data": "id",
                 "render": function (data) {

@@ -31,10 +31,10 @@
         </div>
         <div class="form-group row">
             <div class="col-3">
-                <label asp-for="Year_of_realesae"></label>
+                <label asp-for="Year_of_realesae">Year of release</label>
             </div>
             <div class="col-6">
-                <input asp-for="Year_of_realesae" class="form-control" />
+                <input name="Year_of_realesae" type="date" class="form-control" value="@(DateTime.Now.ToString("yyyy-MM-dd"))"/>
                 <span asp-validation-for="Year_of_realesae" class="text-danger"></span>
             </div>
         </div>
